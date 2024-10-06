@@ -4,15 +4,14 @@ phases:
   install:
     commands:
       - yarn install 
-
-  pre_build:
+  test:
     commands:
       - yarn jest
 
 artifacts:
   files:
-    - 'src/**'  # Save all files generated during the build, can be refined further
-  discard-paths: yes  # Save artifacts in the root of the S3 bucket (no subfolders)
+    - 'src/**'  
+  discard-paths: yes
 
 cache:
   paths:
