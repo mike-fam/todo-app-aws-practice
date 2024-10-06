@@ -1,0 +1,19 @@
+{
+  "name": "todo-app-aws-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1691.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0"
+  },
+  "packageManager": "yarn@4.5.0"
+}
